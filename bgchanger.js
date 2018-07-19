@@ -2,7 +2,7 @@
 var back = document.getElementById('bg');
 var but = document.getElementById('next');
 function changeBG() {
-  var c = 1 - 0.5 + Math.random() * (18 - 1 + 1)
+  var c = 1 - 0.5 + Math.random() * (24 - 1 + 1)
   c = Math.round(c);
   var bgs;
   if (c == 1) {
@@ -42,9 +42,17 @@ function changeBG() {
   } else if (c == 18) {
     bgs = "https://psv4.userapi.com/c848136/u491552351/docs/d17/f570fde108fa/girls_delight_protest_flyers_posters_21624_1600x900.jpg?extra=j14mIKao2wzLpUplXDRCtkAf6icMpEYX5yCJAB7aCGjknrZoNMZmSIrjvs6EqWfEwgMXwCmMQTMNk8DpsP64l0af467AAs2fRfMTC9Ypk8RgBz8P2SVUrDLnGiZfxUzEABuLjmAc-8b3HA"
   } else if (c == 19) {
-    bgs = "https://psv4.userapi.com/c848332/u491552351/docs/d12/e17c6f852d8b/nkl.jpg?extra=nhrgi5hCyq_jHvfQDy-4HGmqj43f-X24eomt64FJT-PEwVQ094sOpNZ3_fuvZQ6dDdgwuCvQmiucswmJVP43pi3-GimOrl9cGQDEkz07580t9PS96RcPcUJSMwNlxgt4cfdD9L_r03iNqA"
+    bgs = "https://psv4.userapi.com/c848220/u491552351/docs/d7/214d6a5141e0/Bez_imeni-111.png?extra=ca6QKgKmLdPdg39uaQxECgTn8SJkR86_WO8oHFLxgtjuvotvNCLkN5ngz53ftqGaFSvFBtDRQ4xmgHmsawhXJwJ_dXEhxQKKu5m9Dq7RDwTymNJmYU9Ew4ihWJcy2Xdb5kQJJZjl6IlcCw"
   } else if (c == 20) {
-    bgs = "https://psv4.userapi.com/c848332/u491552351/docs/d12/e17c6f852d8b/nkl.jpg?extra=nhrgi5hCyq_jHvfQDy-4HGmqj43f-X24eomt64FJT-PEwVQ094sOpNZ3_fuvZQ6dDdgwuCvQmiucswmJVP43pi3-GimOrl9cGQDEkz07580t9PS96RcPcUJSMwNlxgt4cfdD9L_r03iNqA"
+    bgs = "https://psv4.userapi.com/c848428/u491552351/docs/d14/0f3731e15b02/wxbs.png?extra=UHFJ7vlRshW5aYK24UgsDa-XVCC0MinNb40cAetin3-9Pas7sjpN_0DFIOvPOTQc9gl6aVnZtTnOyKfabYP0K4R-pGEQjeunBnaSn5GbWWj6prVjgm-WAmtFKglt_Tca92A9ZQwyrrzaJw"
+  } else if (c == 21) {
+    bgs = "https://psv4.userapi.com/c834601/u491552351/docs/d16/be5eaa9602f2/86b091ebb640e020a6c0b690c31da715.jpg?extra=ATkaaAbT_B1LL0d76GlsU2aJaSVyVU1h8mbrWgBaNwVoLogprMzvYtlztVOLh2CLaYpltbmuUW3YOWrPWPddR3uRgV0gBU-gmAvA33QUfeRmCWp1YeaIZTnDX3v6C4OxxcWWbXn_OSHTgQ"
+  } else if (c == 22) {
+    bgs = "https://psv4.userapi.com/c834701/u491552351/docs/d6/f8d52d10a20b/anime-touhou-art-60mai-yakumo-yukari-dev-859389.jpg?extra=cZzslIiT6Prnq2AWYBAbT8uqo3sfiwBKBlpa7Fca_PIJvzpf6BlPat9gUkn8IUwt54L5ji4SfPKT6nmmxv9R3vKhp3WxSZbMRwQ3w8NVOHgfIGu5tLprdcGHRmtIluJN_GD0Yzt8Wm0tQA"
+  } else if (c == 23) {
+    bgs = "https://psv4.userapi.com/c848336/u491552351/docs/d8/e1aaefbac850/60848489_p0.jpg?extra=7ePrrcInFZOQThijzS1mNidsPzKlXndQDpxbpysgtJ_Oqf8HXb_bcKQvFjRPpwvxASj2CAdCCrsUd225I7fOn-LudtMc-gBREDx854uJDzLSLYRHC4fEjRUCFsvSQrqIUVvPzASjGm6BPQ"
+  } else if (c == 24) {
+    bgs = "https://psv4.userapi.com/c834702/u491552351/docs/d12/f2a6784637d9/1920x1080_990389_www_ArtFile_ru.jpg?extra=E3jmD_IwYzkmeCYqGgRwW057XsM4NvRTGzQGmu2-1y7MVYVgKgA4OQE59VN2_f1DJPnERPIsUOk6sHkHZNxDouqGAkbtUAPL8LdLNppaOu-49IQiQlG6I6fE7yPjaUKO1LcqQvJM0_mDNw"
   }
   console.log(c); 
   back.style.background = "url('" + bgs + "') no-repeat center center";
