@@ -2,7 +2,7 @@
 var back = document.getElementById('bg');
 var but = document.getElementById('next');
 function changeBG() {
-  var c = 1 - 0.5 + Math.random() * (13 - 1 + 1)
+  var c = 1 - 0.5 + Math.random() * (18 - 1 + 1)
   c = Math.round(c);
   var bgs;
   if (c == 1) {
