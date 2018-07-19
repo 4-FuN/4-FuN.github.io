@@ -1500,8 +1500,8 @@ a.gallery:focus{
 }
 
 #bg {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -1509,6 +1509,20 @@ a.gallery:focus{
     background: url('https://img.getbg.net/upload/full/www.GetBg.net_Anime_Anime_girl_floating_in_the_clouds_101465_.png') no-repeat center center;
     background-size: cover;
     transform: scale(1.05);
+}
+
+@media  screen and (max-width: 1920px) {
+#bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('https://img.getbg.net/upload/full/www.GetBg.net_Anime_Anime_girl_floating_in_the_clouds_101465_.png') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.85);
+}
 }
 
 #next {
