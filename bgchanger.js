@@ -2,7 +2,7 @@
 var back = document.getElementById('bg');
 var but = document.getElementById('next');
 function changeBG() {
-  var c = 1 - 0.5 + Math.random() * (24 - 1 + 1)
+  var c = 1 - 0.5 + Math.random() * (25 - 1 + 1)
   c = Math.round(c);
   var bgs;
   if (c == 1) {
@@ -53,6 +53,8 @@ function changeBG() {
     bgs = "https://psv4.userapi.com/c848336/u491552351/docs/d8/e1aaefbac850/60848489_p0.jpg?extra=7ePrrcInFZOQThijzS1mNidsPzKlXndQDpxbpysgtJ_Oqf8HXb_bcKQvFjRPpwvxASj2CAdCCrsUd225I7fOn-LudtMc-gBREDx854uJDzLSLYRHC4fEjRUCFsvSQrqIUVvPzASjGm6BPQ"
   } else if (c == 24) {
     bgs = "https://psv4.userapi.com/c834702/u491552351/docs/d12/f2a6784637d9/1920x1080_990389_www_ArtFile_ru.jpg?extra=E3jmD_IwYzkmeCYqGgRwW057XsM4NvRTGzQGmu2-1y7MVYVgKgA4OQE59VN2_f1DJPnERPIsUOk6sHkHZNxDouqGAkbtUAPL8LdLNppaOu-49IQiQlG6I6fE7yPjaUKO1LcqQvJM0_mDNw"
+  } else if (c == 25) {
+    bgs = "https://pp.userapi.com/c846019/v846019790/aaa80/aD2nZe-rp6E.jpg"
   }
   console.log(c); 
   back.style.background = "url('" + bgs + "') no-repeat center center";
