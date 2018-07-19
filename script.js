@@ -59,15 +59,3 @@ $(window).on('mousemove click', function (e) {
 });
 
 moveBackground();
-
-
-
-function Cvet() {
-    var animati = document.getElementById('glow');
-    var r = Math.floor(Math.random() * (256)),
-        g = Math.floor(Math.random() * (256))
-        b = Math.floor(Math.random() * (256)),
-        c = 'rgb(' + r.toString(10) + ',' + g.toString(10) + ',' + b.toString(10) + ")";
-}
-
-setInterval(Cvet, 1000);
