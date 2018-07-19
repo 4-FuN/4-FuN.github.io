@@ -1508,8 +1508,9 @@ a.gallery:focus{
     z-index: -1;
     background: url('https://img.getbg.net/upload/full/www.GetBg.net_Anime_Anime_girl_floating_in_the_clouds_101465_.png') no-repeat center center;
     background-size: cover;
-    transform: scale(1.1);
+    transform: scale(2);
 }
+
 
 #next {
     position: absolute;
