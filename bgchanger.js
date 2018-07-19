@@ -32,6 +32,7 @@ function changeBG() {
   } else if (c == 13) {
     bgs = "https://1.bp.blogspot.com/-RKB1d4DQMb0/UbidBypAG7I/AAAAAAAABBg/o5pHQ_icCOs/s1600/Sky+Anime+Landscape+29.jpg"
   }
+  console.log(c); 
   back.style.background = "url('" + bgs + "') no-repeat center center";
 }
 but.addEventListener('click', changeBG, false);
