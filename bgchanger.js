@@ -31,52 +31,6 @@ function changeBG() {
     bgs = "http://wallpapers-image.ru/1920x1080/anime/wallpapers/anime-images-1920x1080-21.jpg"
   } else if (c == 13) {
     bgs = "https://1.bp.blogspot.com/-RKB1d4DQMb0/UbidBypAG7I/AAAAAAAABBg/o5pHQ_icCOs/s1600/Sky+Anime+Landscape+29.jpg"
-  } else if (c == 14) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-47.jpg"
-  } else if (c == 15) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-48.jpg"
-  } else if (c == 16) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-49.jpg"
-  } else if (c == 17) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-51.jpg"
-  } else if (c == 18) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-54.jpg"
-  } else if (c == 19) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-56.jpg"
-  } else if (c == 20) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-58.jpg"
-  } else if (c == 21) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-60.jpg"
-  } else if (c == 22) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-66.jpg"
-  } else if (c == 23) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-77.jpg"
-  } else if (c == 24) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-79.jpg"
-  } else if (c == 25) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-81.jpg"
-  } else if (c == 26) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-84.jpg"
-  } else if (c == 27) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-86.jpg"
-  } else if (c == 28) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-87.jpg"
-  } else if (c == 29) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-7.jpg"
-  } else if (c == 30) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-9.jpg"
-  } else if (c == 31) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-10.jpg"
-  } else if (c == 32) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-11.jpg"
-  } else if (c == 33) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-21.jpg"
-  } else if (c == 34) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-29.jpg"
-  } else if (c == 35) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-34.jpg"
-  } else if (c == 36) {
-    bgs = "https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-46.jpg"
   }
   back.style.background = "url('" + bgs + "') no-repeat center center";
 }
